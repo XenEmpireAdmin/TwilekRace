@@ -1,0 +1,382 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PawnKindDefs>
+
+  <!-- ============================ Twilek Base ========================== -->
+
+  <PawnKindDef Name="TwilekBase" Abstract="True">
+    <defaultFactionType>TwilekEmpire</defaultFactionType>
+    <race>Alien_Twilek</race>
+	<backstoryCategory>TwilekBackstory</backstoryCategory>
+    <chemicalAddictionChance>0.035</chemicalAddictionChance>
+    <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
+    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelTags>
+      <li>Tribal</li>
+    </apparelTags>
+  </PawnKindDef>
+  
+  <!-- ============================ Twilek Civilian Base ========================== -->
+
+  <PawnKindDef Name="TwilekCivBase" ParentName="TwilekBase" Abstract="True">
+    <combatPower>25</combatPower>
+	<race>Alien_Twilek</race>
+    <itemQuality>Normal</itemQuality>
+    <isFighter>false</isFighter>
+    <gearHealthRange>
+      <min>0.2</min>
+      <max>2.0</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>300</min>
+      <max>900</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>0</min>
+      <max>250</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+      <li>Melee</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>300</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.51</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.75</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <choiceChance>90</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>25</min>
+            <max>70</max>
+          </countRange>
+        </li>
+        <li>
+          <choiceChance>10</choiceChance>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>700</min>
+            <max>1000</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+  <!-- ============================ Twilek Civilians ========================== -->
+  
+  <PawnKindDef ParentName="TwilekCivBase">
+    <defName>TwilekColonist</defName>
+    <label>colonist</label>
+  </PawnKindDef>
+
+  <PawnKindDef ParentName="TwilekCivBase">
+    <defName>TwilekGrandVizier</defName>
+    <label>Grand Vizier</label>
+    <labelPlural>Grand Viziers</labelPlural>
+    <factionLeader>true</factionLeader>
+	<minGenerationAge>39</minGenerationAge>
+	<maxGenerationAge>100</maxGenerationAge>
+  </PawnKindDef>
+  
+  <PawnKindDef ParentName="TwilekCivBase">
+    <defName>TwilekTrader</defName>
+    <label>Twi'lek trader</label>
+    <trader>true</trader>
+  </PawnKindDef>
+  
+    <PawnKindDef ParentName="TwilekCivBase">
+    <defName>TwilekSlave</defName>
+    <label>Twi'lek slave</label>
+  </PawnKindDef>
+
+  
+  <!-- ============================ Twilek Security ========================== -->
+  
+  <PawnKindDef ParentName="TwilekCivBase">
+    <defName>TwilekAcrobat</defName>
+    <label>Acrobat</label>
+    <combatPower>50</combatPower>
+    <maxGenerationAge>50</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>1.8</max>
+    </gearHealthRange>
+    <apparelMoney>
+      <min>300</min>
+      <max>900</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>200</min>
+      <max>800</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>200</min>
+      <max>500</max>
+    </techHediffsMoney>
+    <techHediffsTags>
+      <li>Simple</li>
+    </techHediffsTags>
+    <techHediffsChance>0.20</techHediffsChance>
+    <invNutrition>2.55</invNutrition>
+    <inventoryOptions>
+      <skipChance>0.95</skipChance>
+      <thingDef>Silver</thingDef>
+      <countRange>
+        <min>30</min>
+        <max>100</max>
+      </countRange>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+ 
+  <!-- ============================ Twilek Military Base ========================== -->
+  
+  <PawnKindDef Name="TwilekMilBase" ParentName="TwilekBase" Abstract="True">
+    <chemicalAddictionChance>0</chemicalAddictionChance>
+    <isFighter>true</isFighter>
+	<race>Alien_Twilek</race>
+    <invNutrition>2.55</invNutrition>
+    <itemQuality>Normal</itemQuality>
+	<minGenerationAge>19</minGenerationAge>
+    <maxGenerationAge>50</maxGenerationAge>
+    <gearHealthRange>
+      <min>0.7</min>
+      <max>2.3</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>Outlander</li>
+      <li>Military</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1500</min>
+      <max>2800</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>400</min>
+      <max>1000</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>1000</min>
+      <max>1500</max>
+    </techHediffsMoney>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>50</min>
+            <max>200</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>Medicine</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+  <!-- ============================ Twilek Military ========================== -->
+  
+  <PawnKindDef ParentName="TwilekMilBase">
+    <defName>TwilekRecruit</defName>
+    <label>Twi'lek runner</label>
+    <combatPower>70</combatPower>
+  </PawnKindDef>
+
+  
+  <PawnKindDef ParentName="TwilekMilBase">
+    <defName>TwilekMerc</defName>
+    <label>Twi'lek Merc</label>
+    <combatPower>90</combatPower>
+    <minGenerationAge>19</minGenerationAge>
+    <gearHealthRange>
+      <min>0.7</min>
+      <max>2.3</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>Outlander</li>
+      <li>Military</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1500</min>
+      <max>2500</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>1200</min>
+      <max>1800</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>SniperRifle</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>1000</min>
+      <max>1500</max>
+    </techHediffsMoney>
+    <combatEnhancingDrugsCount>
+      <min>0</min>
+      <max>2</max>
+    </combatEnhancingDrugsCount>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.73</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>50</min>
+            <max>200</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>Medicine</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>1</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+
+  <PawnKindDef ParentName="TwilekMilBase">
+    <defName>TwilekOperative</defName>
+    <label>Twi'lek operative</label>
+    <combatPower>135</combatPower>
+    <minGenerationAge>20</minGenerationAge>
+    <gearHealthRange>
+      <min>0.5</min>
+      <max>2.3</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>Outlander</li>
+      <li>Military</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>1000</min>
+      <max>2600</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>1200</min>
+      <max>2000</max>
+    </weaponMoney>
+    <weaponTags>
+      <li>Gun</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>2000</min>
+      <max>3000</max>
+    </techHediffsMoney>
+    <combatEnhancingDrugsCount>
+      <min>0</min>
+      <max>2</max>
+    </combatEnhancingDrugsCount>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.88</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>180</min>
+            <max>400</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>Medicine</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>2</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+
+  
+  <PawnKindDef ParentName="TwilekMilBase">
+     <defName>TwilekOperativeElite</defName>
+    <label>Twi'lek assassin</label>
+    <combatPower>220</combatPower>
+    <minGenerationAge>26</minGenerationAge>
+    <gearHealthRange>
+      <min>0.8</min>
+      <max>3.5</max>
+    </gearHealthRange>
+    <apparelTags>
+      <li>Military</li>
+      <li>Spacer</li>
+    </apparelTags>
+    <apparelMoney>
+      <min>2500</min>
+      <max>4200</max>
+    </apparelMoney>
+    <weaponMoney>
+      <min>1600</min>
+      <max>2000</max>
+    </weaponMoney>
+    <weaponTags>
+			<li>EliteGun</li>
+      <li>AdvancedGun</li>
+    </weaponTags>
+    <techHediffsMoney>
+      <min>2000</min>
+      <max>3000</max>
+    </techHediffsMoney>
+    <combatEnhancingDrugsCount>
+      <min>1</min>
+      <max>2</max>
+    </combatEnhancingDrugsCount>
+    <combatEnhancingDrugsChance>0.1</combatEnhancingDrugsChance>
+    <techHediffsTags>
+      <li>Advanced</li>
+    </techHediffsTags>
+    <techHediffsChance>0.80</techHediffsChance>
+    <inventoryOptions>
+      <skipChance>0.8</skipChance>
+      <subOptionsChooseOne>
+        <li>
+          <thingDef>Silver</thingDef>
+          <countRange>
+            <min>120</min>
+            <max>480</max>
+          </countRange>
+        </li>
+        <li>
+          <thingDef>Medicine</thingDef>
+          <countRange>
+            <min>1</min>
+            <max>2</max>
+          </countRange>
+        </li>
+      </subOptionsChooseOne>
+    </inventoryOptions>
+  </PawnKindDef>
+  
+
+</PawnKindDefs>

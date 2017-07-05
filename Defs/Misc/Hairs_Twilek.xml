@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DefPackage-HairDef>
+
+  <HairDef>
+    <defName>Lek1A</defName>
+    <label>Lekku 1A</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Lek1A</texPath>
+		<hairTags>
+			<li>Lekku</li>
+		</hairTags>
+  </HairDef>
+  
+    <HairDef>
+    <defName>Lek1B</defName>
+    <label>Lekku 1B</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Lek1B</texPath>
+		<hairTags>
+			<li>Lekku</li>
+		</hairTags>
+  </HairDef>
+  
+    <HairDef>
+    <defName>Lek1C</defName>
+    <label>Lekku 1C</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Lek1C</texPath>
+		<hairTags>
+			<li>Lekku</li>
+		</hairTags>
+  </HairDef>
+  
+    <HairDef>
+    <defName>Lek2A</defName>
+    <label>Lekku 2A</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/Lek2A</texPath>
+		<hairTags>
+			<li>Lekku</li>
+		</hairTags>
+  </HairDef>
+  
+   <HairDef>
+    <defName>Lek2B</defName>
+    <label>Lekku 2B</label>
+    <hairGender>Female</hairGender>
+    <texPath>Hairs/Lek2B</texPath>
+		<hairTags>
+			<li>Lekku</li>
+		</hairTags>
+  </HairDef> 
+
+   <HairDef>
+    <defName>Lek3A</defName>
+    <label>Lekku 3A</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Lek3A</texPath>
+		<hairTags>
+			<li>Lekku</li>
+		</hairTags>
+  </HairDef>
+  
+   <HairDef>
+    <defName>Lek3B</defName>
+    <label>Lekku 3B</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Lek3B</texPath>
+		<hairTags>
+			<li>Lekku</li>
+		</hairTags>
+  </HairDef>
+
+   <HairDef>
+    <defName>Lek3C</defName>
+    <label>Lekku 3C</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Lek3C</texPath>
+		<hairTags>
+			<li>Lekku</li>
+		</hairTags>
+  </HairDef>
+
+   <HairDef>
+    <defName>Lek3D</defName>
+    <label>Lekku 3D</label>
+    <hairGender>Any</hairGender>
+    <texPath>Hairs/Lek3D</texPath>
+		<hairTags>
+			<li>Lekku</li>
+		</hairTags>
+  </HairDef>
+
+   <HairDef>
+    <defName>LekMA</defName>
+    <label>Lekku MA</label>
+    <hairGender>Male</hairGender>
+    <texPath>Hairs/LekMA</texPath>
+		<hairTags>
+			<li>Lekku</li>
+		</hairTags>
+  </HairDef>
+
+</DefPackage-HairDef>

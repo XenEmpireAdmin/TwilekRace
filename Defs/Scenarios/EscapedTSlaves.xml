@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ScenarioDef>
+	<defName>TwilekScenariox</defName>
+		<label>Escaped Twilek Slaves</label>
+		<description>You and a small group of fellow Twi'lek escaped from hutt slavery by stowing away on a freighter. When that freighter was attacked by pirates, you knew you had to take your chances in the escape pods, or be ransomed back to slavery...</description>
+<scenario>
+<summary>Five escaped Twilek slaves attempt to build a colony. Difficult.</summary>
+		<playerFaction>
+			<def>PlayerFaction</def>
+			<factionDef>TwilekPlayerColonyTribal</factionDef>
+		</playerFaction>
+		<parts>
+			<li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+				<def>ConfigPage_ConfigureStartingPawns</def>
+				<pawnCount>5</pawnCount>
+			</li>
+			<li Class="ScenPart_PlayerPawnsArriveMethod">
+				<def>PlayerPawnsArriveMethod</def>
+			</li>
+			<li Class="ScenPart_ForcedHediff">
+				<def>ForcedHediff</def>
+				<chance>0.5</chance>
+				<context>PlayerStarter</context>
+				<hediff>Malnutrition</hediff>
+				<severityRange>0.09166667~0.297</severityRange>
+			</li>
+			<li Class="ScenPart_SetNeedLevel">
+				<def>SetNeedLevel</def>
+				<chance>1</chance>
+				<context>PlayerStarter</context>
+				<need>Food</need>
+				<levelRange>0~0.1</levelRange>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Silver</thingDef>
+				<count>200</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Pemmican</thingDef>
+				<count>300</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>HerbalMedicine</thingDef>
+				<count>20</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MeleeWeapon_Club</thingDef>
+				<stuff>WoodLog</stuff>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MeleeWeapon_Spear</thingDef>
+				<stuff>WoodLog</stuff>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>MeleeWeapon_Knife</thingDef>
+				<stuff>Jade</stuff>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Bow_Short</thingDef>
+				<count>2</count>
+			</li>
+			<li Class="ScenPart_StartingThing_Defined">
+				<def>StartingThing_Defined</def>
+				<thingDef>Pila</thingDef>
+			</li>
+			<li Class="ScenPart_StartingAnimal">
+				<def>StartingAnimal</def>
+				<count>3</count>
+				<bondToRandomPlayerPawnChance>1</bondToRandomPlayerPawnChance>
+			</li>
+			<li Class="ScenPart_ScatterThingsNearPlayerStart">
+				<def>ScatterThingsNearPlayerStart</def>
+				<thingDef>WoodLog</thingDef>
+				<count>500</count>
+			</li>
+			<li Class="ScenPart_GameStartDialog">
+				<def>GameStartDialog</def>
+				<text>There was no choice, you had to make a break from your cramped hiding place and run for the escape pods. The pirates were slaughtering the crew and passengers - it was either death or a return to slavery if you'd stayed. The relief was palpable when the escape pod relayed information about a habitable planet within range...</text>
+				<closeSound>GameStartSting</closeSound>
+			</li>
+		</parts>
+		</scenario>
+	</ScenarioDef>
+</Defs>

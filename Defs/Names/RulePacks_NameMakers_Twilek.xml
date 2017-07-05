@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<NameMakerDefs>
+
+  <RulePackDef>
+    <defName>NamerPersonTwilekM</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[TwilekfirstM] [Twileklast]</li>
+        <li>name->[badasstwi] [TwilekfirstM]</li>
+        <li>name->[TwilekfirstM] '[badasstwi]' [Twileklast]</li>
+        <li>name->[TwilekfirstM] [badasstwi]</li>
+
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>TwilekfirstM</keyword>
+          <path>Twilek_Names/TwilekM</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Twileklast</keyword>
+          <path>Twilek_Names/Twileklast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badasstwi</keyword>
+          <path>Twilek_Names/Concepts_Twilek</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+  <RulePackDef>
+    <defName>NamerPersonTwilekF</defName>
+    <rulePack>
+      <rulesStrings>
+        <li>name->[TwilekfirstF] [Twileklast]</li>
+        <li>name->[badasstwi] [TwilekfirstF]</li>
+        <li>name->[TwilekfirstF] '[badasstwi]' [Twileklast]</li>
+        <li>name->[TwilekfirstF] [badasstwi]</li>
+
+      </rulesStrings>
+      <rulesRaw>
+        <li Class="Rule_File">
+          <keyword>TwilekfirstF</keyword>
+          <path>Twilek_Names/TwilekF</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>Twileklast</keyword>
+          <path>Twilek_Names/Twileklast</path>
+        </li>
+        <li Class="Rule_File">
+          <keyword>badasstwi</keyword>
+          <path>Twilek_Names/Concepts_Twilek</path>
+        </li>
+      </rulesRaw>
+    </rulePack>
+  </RulePackDef>
+
+</NameMakerDefs>

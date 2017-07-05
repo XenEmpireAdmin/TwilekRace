@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <FactionDef Abstract="True" Name="TwilekFactionBase">
+    <colorSpectrum>
+      <li>(0, 0.737, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+  
+  <FactionDef Parent="TwilekFactionBase">
+    <defName>TwilekPlayerColony</defName>
+    <label>Twilek Colony</label>
+    <description>Your own community.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Twilek</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategory>Civil</backstoryCategory>
+    <homeIconPath>World/TwilekBaseIcon</homeIconPath>
+    <expandingIconTexture>World/TwilekBaseIcon</expandingIconTexture>
+    <startingResearchTags>
+      <li>ClassicStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>Lekku</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+
+  </FactionDef>
+  
+    <FactionDef Parent="TwilekFactionBase">
+    <defName>TwilekPlayerColonyTribal</defName>
+    <label>Twilek Tribal</label>
+    <description>Twilek Tribal Start.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Twilek</basicMemberKind>
+    <pawnsPlural>colonists</pawnsPlural>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <techLevel>Ultra</techLevel>
+    <backstoryCategory>Civil</backstoryCategory>
+    <homeIconPath>World/TwilekBaseIcon</homeIconPath>
+    <expandingIconTexture>World/TwilekBaseIcon</expandingIconTexture>
+    <startingResearchTags>
+      <li>TribalStart</li>
+    </startingResearchTags>
+    <hairTags>
+      <li>Lekku</li>
+    </hairTags>
+    <apparelStuffFilter>
+      <thingDefs>
+        <li>Synthread</li>
+      </thingDefs>
+    </apparelStuffFilter>
+    <colorSpectrum>
+      <li>(0, 0.437, 0.847)</li>
+    </colorSpectrum>
+  </FactionDef>
+
+</Defs>

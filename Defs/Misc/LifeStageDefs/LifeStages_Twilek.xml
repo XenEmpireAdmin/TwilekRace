@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <LifeStageDef>
+    <defName>BabyTwiStage</defName>
+    <label>baby</label>
+    <bodySizeFactor>0.2</bodySizeFactor>
+    <healthScaleFactor>0.2</healthScaleFactor>
+    <hungerRateFactor>0.2</hungerRateFactor>
+    <marketValueFactor>0.5</marketValueFactor>
+    <statFactors>
+      <MoveSpeed>0.2</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>ChildTwiStage</defName>
+    <label>child</label>
+    <bodySizeFactor>0.5</bodySizeFactor>
+    <healthScaleFactor>0.5</healthScaleFactor>
+    <hungerRateFactor>0.6</hungerRateFactor>
+    <marketValueFactor>0.9</marketValueFactor>
+    <statFactors>
+      <MoveSpeed>0.65</MoveSpeed>
+    </statFactors>
+  </LifeStageDef>
+
+    <LifeStageDef>
+    <defName>TeenTwiStage</defName>
+    <label>adult stage</label>
+    <visible>false</visible>
+    <reproductive>true</reproductive>
+  </LifeStageDef>
+  
+  <LifeStageDef>
+    <defName>AdultTwiStage</defName>
+    <label>adult stage</label>
+    <visible>false</visible>
+    <reproductive>true</reproductive>
+  </LifeStageDef>
+
+  <LifeStageDef>
+    <defName>ElderTwiStage</defName>
+    <label>elder stage</label>
+    <visible>false</visible>
+    <reproductive>true</reproductive>
+  </LifeStageDef>
+  
+  <LifeStageDef>
+    <defName>AncestorTwiStage</defName>
+    <label>ancestor stage</label>
+    <visible>false</visible>
+    <reproductive>true</reproductive>
+  </LifeStageDef>
+
+</Defs>
