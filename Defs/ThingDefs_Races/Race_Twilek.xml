@@ -120,6 +120,9 @@
         <hairSettings>
             <HasHair>true</HasHair>
             <GetsGreyAt>200</GetsGreyAt> 
+            <hairTags>
+                 <li>Lekku</li>
+            </hairTags>
         </hairSettings>
         <pawnKindSettings>
             <alienslavekinds>

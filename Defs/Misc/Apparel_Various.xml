@@ -47,7 +47,7 @@
     </recipeMaker>
   </ThingDef>
   
-	<ThingDef ParentName="ApparelMakeableBase">
+	<ThingDef ParentName="TwiApparelMakeableBase">
 		<defName>Apparel_TwilekA</defName>
 		<label>Twilek cultural garb</label>
 		<description>A garment crafted in traditional Twi'lek style.</description>
