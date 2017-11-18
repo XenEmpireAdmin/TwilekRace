@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<FactionDefs>
+<Defs>
 
   <FactionDef>
 		<defName>TwilekEmpire</defName>
@@ -9,7 +9,6 @@
     <baseSelectionWeight>.75</baseSelectionWeight>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
     <canMakeRandomly>true</canMakeRandomly>
-    <raidCommonality>100</raidCommonality>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
     <leaderTitle>Vizier</leaderTitle>
@@ -89,4 +88,4 @@
 	<expandingIconTexture>World/TwilekBaseIcon</expandingIconTexture>
   </FactionDef>
 
-</FactionDefs>
+</Defs>

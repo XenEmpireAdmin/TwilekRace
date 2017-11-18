@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<PawnKindDefs>
+<Defs>
 
   <!-- ============================ Twilek Base ========================== -->
 
@@ -36,7 +36,8 @@
     </weaponMoney>
     <weaponTags>
       <li>Gun</li>
-      <li>Melee</li>
+     	<li>NeolithicMeleeBasic</li>
+      <li>NeolithicMeleeAdvanced</li>
     </weaponTags>
     <techHediffsMoney>
       <min>200</min>
@@ -379,4 +380,4 @@
   </PawnKindDef>
   
 
-</PawnKindDefs>
+</Defs>

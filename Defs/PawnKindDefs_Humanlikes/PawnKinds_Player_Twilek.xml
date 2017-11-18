@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<PawnKindDefs>
+<Defs>
 
   <PawnKindDef Abstract="True" Name="BaseTwilekPawnKind">
     <race>Alien_Twilek</race>
@@ -25,4 +25,4 @@
     <backstoryCryptosleepCommonality>1</backstoryCryptosleepCommonality>
   </PawnKindDef>
 
-</PawnKindDefs>
+</Defs>

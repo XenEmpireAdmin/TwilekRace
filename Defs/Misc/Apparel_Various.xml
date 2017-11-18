@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef Name="TwiApparelBase" Abstract="True">
     <thingClass>Apparel</thingClass>
@@ -76,7 +76,7 @@
 				<li>Torso</li>
 				<li>Legs</li>
 			</bodyPartGroups>
-			<worngraphicPath>Gear/Tcult</worngraphicPath>
+			<wornGraphicPath>Gear/Tcult</wornGraphicPath>
 			<layers>
 				<li>OnSkin</li>
 			</layers>
@@ -110,4 +110,4 @@
 	</ThingDef>
 
 
-</ThingDefs>
+</Defs>

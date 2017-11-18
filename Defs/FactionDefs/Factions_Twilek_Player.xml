@@ -14,7 +14,9 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>Twilek</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+		<baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
+		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
+		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
     <techLevel>Ultra</techLevel>
     <backstoryCategory>Civil</backstoryCategory>
     <homeIconPath>World/TwilekBaseIcon</homeIconPath>
@@ -40,7 +42,9 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>Twilek</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <baseNameMaker>NamerFactionBasePlayerTribe</baseNameMaker>
+		<baseNameMakerPlayer>NamerFactionTribal</baseNameMakerPlayer>
+		<factionNameMakerPlayer>NamerFactionBaseTribal</factionNameMakerPlayer>
     <techLevel>Ultra</techLevel>
     <backstoryCategory>Civil</backstoryCategory>
     <homeIconPath>World/TwilekBaseIcon</homeIconPath>

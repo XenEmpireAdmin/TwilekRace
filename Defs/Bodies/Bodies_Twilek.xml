@@ -371,6 +371,14 @@
           </parts>
         </li>
         <li>
+          <def>Waist</def>
+          <coverage>0</coverage>
+          <height>Bottom</height>
+          <groups>
+            <li>Waist</li>
+          </groups>
+        </li>
+        <li>
           <def>RightShoulder</def>
           <coverage>0.12</coverage>
           <groups>
