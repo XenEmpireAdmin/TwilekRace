@@ -14,11 +14,14 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>Twilek</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-		<baseNameMaker>NamerFactionBasePlayerColony</baseNameMaker>
-		<baseNameMakerPlayer>NamerFactionPlayerColonyRandomized</baseNameMakerPlayer>
-		<factionNameMakerPlayer>NamerFactionBasePlayerColonyRandomized</factionNameMakerPlayer>
+		<playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+		<factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
     <techLevel>Ultra</techLevel>
-    <backstoryCategory>Civil</backstoryCategory>
+    <backstoryCategories>
+			<li>TwilekBackstory</li>
+      <li>Civil</li>
+  	</backstoryCategories>
     <homeIconPath>World/TwilekBaseIcon</homeIconPath>
     <expandingIconTexture>World/TwilekBaseIcon</expandingIconTexture>
     <startingResearchTags>
@@ -42,11 +45,14 @@
     <isPlayer>true</isPlayer>
     <basicMemberKind>Twilek</basicMemberKind>
     <pawnsPlural>colonists</pawnsPlural>
-    <baseNameMaker>NamerFactionBasePlayerTribe</baseNameMaker>
-		<baseNameMakerPlayer>NamerFactionTribal</baseNameMakerPlayer>
-		<factionNameMakerPlayer>NamerFactionBaseTribal</factionNameMakerPlayer>
+    <playerInitialSettlementNameMaker>NamerInitialSettlementColony</playerInitialSettlementNameMaker>
+    <factionNameMaker>NamerFactionTribal</factionNameMaker>
+    <settlementNameMaker>NamerSettlementTribal</settlementNameMaker>
     <techLevel>Ultra</techLevel>
-    <backstoryCategory>Civil</backstoryCategory>
+    <backstoryCategories>
+			<li>TwilekBackstory</li>
+      <li>Civil</li>
+  	</backstoryCategories>
     <homeIconPath>World/TwilekBaseIcon</homeIconPath>
     <expandingIconTexture>World/TwilekBaseIcon</expandingIconTexture>
     <startingResearchTags>

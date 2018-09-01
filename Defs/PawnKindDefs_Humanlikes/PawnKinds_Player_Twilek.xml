@@ -14,9 +14,14 @@
     <defName>Twilek</defName>
     <label>colonist</label>
     <defaultFactionType>TwilekPlayerColony</defaultFactionType>
-    <backstoryCategory>TwilekBackstory</backstoryCategory>
+    <backstoryCategories>
+			<li>TwilekBackstory</li>
+      <li>Civil</li>
+  	</backstoryCategories>
     <apparelTags>
       <li>Spacer</li>
+      <li>IndustrialBasic</li>
+      <li>Twilek</li>
     </apparelTags>
     <apparelMoney>
       <min>1000</min>

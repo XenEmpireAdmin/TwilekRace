@@ -5,7 +5,7 @@
     <defName>TwilekMonk</defName>
     <title>Battle monk</title>
 	<titleShort>Monk</titleShort>
-    <baseDescription>NAME was raised by a Hutt slave training facility devoted to martial arts and acrobatics, to produce various dancers, bodyguards, and assassins to the various Hutt ganglords. HECAP was raised to master various forms of physical combat and acrobatics, excelling in melee combat skills from an early age.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was raised by a Hutt slave training facility devoted to martial arts and acrobatics, to produce various dancers, bodyguards, and assassins to the various Hutt ganglords. [PAWN_pronoun] was raised to master various forms of physical combat and acrobatics, excelling in melee combat skills from an early age.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -25,7 +25,7 @@
         <amount>6</amount>
       </li>
 	  <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
     </skillGains>
@@ -35,7 +35,7 @@
     <defName>TwilekMonkAdl</defName>
     <title>Twi'lek assassin</title>
 	<titleShort>Assassin</titleShort>
-    <baseDescription>NAME spent HIS adolescent years training in advanced infiltration and assassination techniques. HECAP has masterered multiple martial arts, weapons, and techniques for stealth and information gathering.</baseDescription>
+    <baseDescription>[PAWN_nameDef] spent [PAWN_possessive] adolescent years training in advanced infiltration and assassination techniques. [PAWN_pronoun] has masterered multiple martial arts, weapons, and techniques for stealth and information gathering.</baseDescription>
     <slot>Adulthood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -55,7 +55,7 @@
         <amount>8</amount>
       </li>
 	  <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
     </skillGains>
@@ -65,7 +65,7 @@
     <defName>TwilekTribalAdult</defName>
     <title>Worker</title>
 	<titleShort>Worker</titleShort>
-    <baseDescription>Many of the Twilek people are simple slave workers, like NAME. A hardy people, due to the harsh environment of their home, Ryloth.</baseDescription>
+    <baseDescription>Many of the Twilek people are simple slave workers, like [PAWN_nameDef]. A hardy people, due to the harsh environment of their home, Ryloth.</baseDescription>
     <slot>Adulthood</slot>
     <spawnCategories>
       <li>TwilekBackstory</li>
@@ -85,7 +85,7 @@
         <amount>4</amount>
       </li>
        <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>2</amount>
       </li>
     </skillGains>
@@ -95,7 +95,7 @@
   <defName>TwilekTribal</defName>
   <title>Luxury slavechild</title>
 	<titleShort>Lux-slave</titleShort>
-    <baseDescription>NAME was sold into slavery by one of the Twi'lek families that believes interplanetary slavery is the easiest way to proliferate their species and culture. HECAP was trained from a young age in many forms of dance and entertainment, as well as a thorough academic education.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was sold into slavery by one of the Twi'lek families that believes interplanetary slavery is the easiest way to proliferate their species and culture. [PAWN_pronoun] was trained from a young age in many forms of dance and entertainment, as well as a thorough academic education.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -116,7 +116,7 @@
         <amount>4</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
        <li>
@@ -137,7 +137,7 @@
     <defName>TwilekBuilder</defName>
     <title>Slave builder</title>
 	<titleShort>Builder</titleShort>
-    <baseDescription>NAME was recognized as having a good eye for angles and design, so HIS masters saw fit to educate HIM as a construction foreman. HECAP relished the opportunity to design and build lavish palaces and other structures for the hutts in Twi'lek architectural styles and decor.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was recognized as having a good eye for angles and design, so [PAWN_possessive] masters saw fit to educate [PAWN_pronoun] as a construction foreman. [PAWN_pronoun] relished the opportunity to design and build lavish palaces and other structures for the hutts in Twi'lek architectural styles and decor.</baseDescription>
     <slot>Adulthood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -167,7 +167,7 @@
     <defName>TwilekSpacerKid</defName>
     <title>Yacht born</title>
     <titleShort>Yachtkid</titleShort>
-    <baseDescription>NAME was born to a family of servants aboard a hutt pleasure yacht. HECAP learned all the basics of housekeeping, cooking, and maintenance from the various servants and crew.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was born to a family of servants aboard a hutt pleasure yacht. [PAWN_pronoun] learned all the basics of housekeeping, cooking, and maintenance from the various servants and crew.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -196,7 +196,7 @@
     <defName>TwilekTheif</defName>
     <title>Twilek pickpocket</title>
     <titleShort>Pickpocket</titleShort>
-    <baseDescription>NAME escaped slavery at a young age, and turned to pickpocketing and petty theft, stealing what HECAP needed to survive on the hard streets. </baseDescription>
+    <baseDescription>[PAWN_nameDef] escaped slavery at a young age, and turned to pickpocketing and petty theft, stealing what [PAWN_pronoun] needed to survive on the hard streets. </baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -225,7 +225,7 @@
     <defName>TwilekAdopt</defName>
     <title>Adopted twi'lek</title>
     <titleShort>Adopted</titleShort>
-    <baseDescription>NAME was about to be sold to one of the more notoriously cruel hutt ganglords, when an aged Republic senator intervened and offered a lavish sum. The kindly old man raised NAME as his own, enrolling HIM in the finest academy, teaching HIM all the nuances of galactic politics as HECAP was old enough to grasp them. It was a hard day for NAME when the old man passed... but he had left his fortune to HIM in the will...</baseDescription>
+    <baseDescription>[PAWN_nameDef] was about to be sold to one of the more notoriously cruel hutt ganglords, when an aged Republic senator intervened and offered a lavish sum. The kindly old man raised [PAWN_nameDef] as his own, enrolling [PAWN_pronoun] in the finest academy, teaching [PAWN_pronoun] all the nuances of galactic politics as [PAWN_pronoun] was old enough to grasp them. It was a hard day for [PAWN_nameDef] when the old man passed... but he had left his fortune to [PAWN_pronoun] in the will...</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeGlobal>Hulk</bodyTypeGlobal>
       <spawnCategories>
@@ -258,7 +258,7 @@
     <defName>TwilekTribekid</defName>
     <title>Twilek tribe kid</title>
     <titleShort>Twilek</titleShort>
-    <baseDescription>NAME was born in a small free community of Twi'leks. HECAP had to learn to pitch in and help keep the community fed from an early age.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was born in a small free community of Twi'leks. [PAWN_pronoun] had to learn to pitch in and help keep the community fed from an early age.</baseDescription>
     <slot>Childhood</slot>
 	<bodyTypeFemale>Female</bodyTypeFemale>
 	<bodyTypeMale>Male</bodyTypeMale>
@@ -275,7 +275,7 @@
         <amount>3</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>4</amount>
       </li>
     </skillGains>
@@ -288,7 +288,7 @@
     <defName>TwilekCoreKid</defName>
     <title>Twilek crafter</title>
     <titleShort>Crafter</titleShort>
-    <baseDescription>NAME has always been making little things for HIS family. Naturally, they encouraged his skill with craftsmanship, and HECAP is developing into quite the artisan.</baseDescription>
+    <baseDescription>[PAWN_nameDef] has always been making little things for [PAWN_possessive] family. Naturally, they encouraged his skill with craftsmanship, and [PAWN_pronoun] is developing into quite the artisan.</baseDescription>
     <bodyTypeMale>Thin</bodyTypeMale>
     <bodyTypeFemale>Thin</bodyTypeFemale>
     <slot>Childhood</slot>
@@ -313,7 +313,7 @@
     <defName>TwilekWeapon</defName>
     <title>Blastersmith</title>
     <titleShort>Blastersmith</titleShort>
-    <baseDescription>NAME found HECAP had a natural talent and love for making blasters and various custom components. HECAP has become well known among the hutt ganglords for producing excellent custom blasters and upgrade kits.</baseDescription>
+    <baseDescription>[PAWN_nameDef] found [PAWN_pronoun] had a natural talent and love for making blasters and various custom components. [PAWN_pronoun] has become well known among the hutt ganglords for producing excellent custom blasters and upgrade kits.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
@@ -338,7 +338,7 @@
     <defName>TwilekMedic</defName>
     <title>Twilek nurse</title>
     <titleShort>Gang-nurse</titleShort>
-    <baseDescription>NAME tends the wounds and ailments of the various guards, mercenaries, and ruffians hired by the hutts for their local operations. HECAP also prepares various basic pharmaceuticals for their needs, such as laxatives or minor painkillers.</baseDescription>
+    <baseDescription>[PAWN_nameDef] tends the wounds and ailments of the various guards, mercenaries, and ruffians hired by the hutts for their local operations. [PAWN_pronoun] also prepares various basic pharmaceuticals for their needs, such as laxatives or minor painkillers.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
     <slot>Adulthood</slot>
 	<maleCommonality>20</maleCommonality>
@@ -362,7 +362,7 @@
   <defName>Twilekherb</defName>
     <title>Twilek groundskeeper</title>
     <titleShort>Groundskeeper</titleShort>
-    <baseDescription>NAME has tended HIS master's gardens for years now - HECAP knows how to treat each plant to coax the most vibrant color into it's flowers and foliage. As as result, HIS master's garden parties are the envy of the hutt ganglords.</baseDescription>
+    <baseDescription>[PAWN_nameDef] has tended [PAWN_possessive] master's gardens for years now - [PAWN_pronoun] knows how to treat each plant to coax the most vibrant color into it's flowers and foliage. As as result, [PAWN_possessive] master's garden parties are the envy of the hutt ganglords.</baseDescription>
     <bodyTypeGlobal>Thin</bodyTypeGlobal>
     <slot>Adulthood</slot>
 	<maleCommonality>25</maleCommonality>
@@ -377,7 +377,7 @@
         <amount>4</amount>
       </li>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>6</amount>
       </li>
     </skillGains>
@@ -390,7 +390,7 @@
     <defName>TwilekMercBS</defName>
     <title>Twilek merc</title>
     <titleShort>Mercenary</titleShort>
-    <baseDescription>NAME won HIS freedom, and HIS business in a gladiatorial arena. HECAP was thought by most to have been added to the contest as fodder for the hardened bounty hunters and rough types that had entered to win the bounty-hunting contract and state-of-the-art persuit ship that the gang-lords were offering as the grand prize for the sole survivor. The hutts were exceptionally pleased though - after all, nobody had bet on HIM.</baseDescription>
+    <baseDescription>[PAWN_nameDef] won [PAWN_possessive] freedom, and [PAWN_possessive] business in a gladiatorial arena. [PAWN_pronoun] was thought by most to have been added to the contest as fodder for the hardened bounty hunters and rough types that had entered to win the bounty-hunting contract and state-of-the-art persuit ship that the gang-lords were offering as the grand prize for the sole survivor. The hutts were exceptionally pleased though - after all, nobody had bet on [PAWN_pronoun].</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
@@ -424,7 +424,7 @@
     <defName>FighterTwilek</defName>
     <title>Twilek fighter</title>
     <titleShort>Fighter</titleShort>
-    <baseDescription>NAME is a rank-and-file 'soldier' for a hutt gang lord. HECAP keeps dangerous creatures or people from attacking or invading the hutt's stronghold, sometimes raiding other gangs for supplies or to 'send a message'.</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a rank-and-file 'soldier' for a hutt gang lord. [PAWN_pronoun] keeps dangerous creatures or people from attacking or invading the hutt's stronghold, sometimes raiding other gangs for supplies or to 'send a message'.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
@@ -449,7 +449,7 @@
     <defName>DancerTwilek</defName>
     <title>Twilek dancer</title>
     <titleShort>Dancer</titleShort>
-    <baseDescription>The natural grace and exotic beauty of the Twi'leks made them a popular target among slave traders, especially for dancers and entertainers. NAME is one of the massive number of Twi'leks, either willingly or unwillingly drawn into the life of a dancer.</baseDescription>
+    <baseDescription>The natural grace and exotic beauty of the Twi'leks made them a popular target among slave traders, especially for dancers and entertainers. [PAWN_nameDef] is one of the massive number of Twi'leks, either willingly or unwillingly drawn into the life of a dancer.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
@@ -478,7 +478,7 @@
     <defName>CMDTwilek</defName>
     <title>Twilek counselor</title>
     <titleShort>Counselor</titleShort>
-    <baseDescription>NAME was HIS master's trusted right hand and advisor. There was no-one within the hutt's organization who looked on NAME as a slave anymore. HECAP enjoyed a great many luxuries in HIS position. Many believe NAME would have been named the master's successor as gang boss, if HECAP hadn't become seperated from the gang when an assassination attempt disabled the master's space yacht, forcing the gang to rush to the escape pods.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was [PAWN_possessive] master's trusted right hand and advisor. There was no-one within the hutt's organization who looked on [PAWN_nameDef] as a slave anymore. [PAWN_pronoun] enjoyed a great many luxuries in [PAWN_possessive] position. Many believe [PAWN_nameDef] would have been named the master's successor as gang boss, if [PAWN_pronoun] hadn't become seperated from the gang when an assassination attempt disabled the master's space yacht, forcing the gang to rush to the escape pods.</baseDescription>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
     <slot>Adulthood</slot>
@@ -511,7 +511,7 @@
     <defName>TwilekSpacerAdult</defName>
     <title>Space trader</title>
     <titleShort>Spacer</titleShort>
-    <baseDescription>NAME was a free-trader, roving the Rim searching for deals and opportunities for profit. Until now, HE was flying a ship, making deals with colonies like these... I wonder what happened?</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a free-trader, roving the Rim searching for deals and opportunities for profit. Until now, HE was flying a ship, making deals with colonies like these... I wonder what happened?</baseDescription>
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -541,7 +541,7 @@
     <defName>TwilekRebelAdult</defName>
     <title>Rebel</title>
     <titleShort>Rebel</titleShort>
-    <baseDescription>NAME is a rebellious free-spirit</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a rebellious free-spirit</baseDescription>
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -570,7 +570,7 @@
     <defName>TwilekFoodie</defName>
     <title>Gang chef</title>
     <titleShort>Cookie</titleShort>
-    <baseDescription>Every hutt loves food - the more exotic the better. As the chef for a hutt, your culinary skill is directly tied to your longevity. NAME has honed HIS cooking skill to a razor edge to literally preserve HIS own life. If you cook a bad meal for a hutt, you will likely BE the next meal!</baseDescription>
+    <baseDescription>Every hutt loves food - the more exotic the better. As the chef for a hutt, your culinary skill is directly tied to your longevity. [PAWN_nameDef] has honed [PAWN_possessive] cooking skill to a razor edge to literally preserve [PAWN_possessive] own life. If you cook a bad meal for a hutt, you will likely BE the next meal!</baseDescription>
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -600,7 +600,7 @@
     <defName>TwilekRebelKid</defName>
     <title>Rebellious</title>
     <titleShort>Rebellious</titleShort>
-    <baseDescription>NAME is a rebellious free-spirited child. A real firecracker!</baseDescription>
+    <baseDescription>[PAWN_nameDef] is a rebellious free-spirited child. A real firecracker!</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -630,7 +630,7 @@
     <defName>TwilekServant</defName>
     <title>Servant</title>
     <titleShort>Servant</titleShort>
-    <baseDescription>NAME was a house servant to a powerful hutt crime lord. HECAP was well-treated, and well educated, partially as boasting rights on the part of the hutt. HECAP was also trained in basic defense, in case of any intruders.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a house servant to a powerful hutt crime lord. [PAWN_pronoun] was well-treated, and well educated, partially as boasting rights on the part of the hutt. [PAWN_pronoun] was also trained in basic defense, in case of any intruders.</baseDescription>
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
@@ -639,7 +639,7 @@
 	  <femaleCommonality>10</femaleCommonality>
     <skillGains>
       <li>
-        <defName>Growing</defName>
+        <defName>Plants</defName>
         <amount>6</amount>
       </li>
       <li>
@@ -664,7 +664,7 @@
     <defName>ZabChildServant</defName>
     <title>Child servant</title>
     <titleShort>Servant</titleShort>
-    <baseDescription>NAME was born and raised as a servant in the household of a powerful hutt crime lord. HECAP learned all the basic skills from the servants and slaves, before being sent to a training school.</baseDescription>
+    <baseDescription>[PAWN_nameDef] was born and raised as a servant in the household of a powerful hutt crime lord. [PAWN_pronoun] learned all the basic skills from the servants and slaves, before being sent to a training school.</baseDescription>
     <slot>Childhood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>

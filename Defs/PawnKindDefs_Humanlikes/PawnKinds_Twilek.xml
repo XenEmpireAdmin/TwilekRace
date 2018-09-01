@@ -6,12 +6,16 @@
   <PawnKindDef Name="TwilekBase" Abstract="True">
     <defaultFactionType>TwilekEmpire</defaultFactionType>
     <race>Alien_Twilek</race>
-	<backstoryCategory>TwilekBackstory</backstoryCategory>
+	<backstoryCategories>
+			<li>TwilekBackstory</li>
+      <li>Civil</li>
+  	</backstoryCategories>
     <chemicalAddictionChance>0.035</chemicalAddictionChance>
     <baseRecruitDifficulty>0.60</baseRecruitDifficulty>
-    <apparelAllowHeadwearChance>0</apparelAllowHeadwearChance>
+    <apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
     <apparelTags>
       <li>Tribal</li>
+      <li>Neolithic</li>
     </apparelTags>
   </PawnKindDef>
   
@@ -31,8 +35,8 @@
       <max>900</max>
     </apparelMoney>
     <weaponMoney>
-      <min>0</min>
-      <max>250</max>
+      <min>100</min>
+      <max>550</max>
     </weaponMoney>
     <weaponTags>
       <li>Gun</li>
@@ -185,7 +189,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -251,7 +255,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>1</max>
@@ -309,7 +313,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>
@@ -369,7 +373,7 @@
           </countRange>
         </li>
         <li>
-          <thingDef>Medicine</thingDef>
+          <thingDef>MedicineIndustrial</thingDef>
           <countRange>
             <min>1</min>
             <max>2</max>

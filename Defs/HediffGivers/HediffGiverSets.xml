@@ -25,7 +25,7 @@
         </partsToAffect>
         <chancePerDamagePct>0.12</chancePerDamagePct>
         <letterLabel>Trauma savant</letterLabel>
-        <letter>NAME's brain injury has caused HIM to develop strange savant-like abilities.</letter>
+        <letter>[PAWN_nameDef]'s brain injury has caused [PAWN_pronoun] to develop strange savant-like abilities.</letter>
       </li>
       
     </hediffGivers>

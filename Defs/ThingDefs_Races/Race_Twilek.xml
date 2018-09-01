@@ -8,7 +8,7 @@
     <altitudeLayer>Pawn</altitudeLayer>
     <useHitPoints>false</useHitPoints>
     <hasTooltip>true</hasTooltip>
-    <soundImpactDefault>BulletImpactFlesh</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Flesh</soundImpactDefault>
     <inspectorTabs>
         <li>ITab_Pawn_Health</li>
         <li>ITab_Pawn_Needs</li>
@@ -18,7 +18,8 @@
         <li>ITab_Pawn_Guest</li>
         <li>ITab_Pawn_Prisoner</li>
         <li>ITab_Pawn_Social</li>
-        <li>ITab_Pawn_Combat</li>
+        <li>ITab_Pawn_Log</li>
+        <li>ITab_Pawn_FormingCaravan</li>
     </inspectorTabs>
     <comps>
         <li>
@@ -35,11 +36,10 @@
     <alienRace>
         <generalSettings>
             <maleGenderProbability>0.5</maleGenderProbability>
-            <pawnsSpecificBackstories>true</pawnsSpecificBackstories>
             <immuneToAge>true</immuneToAge>
             <forcedRaceTraitEntries>
                 <li>
-                    <defname>Beauty</defname>
+                    <defName>Beauty</defName>
                     <degree>2</degree>
                     <chance>55</chance>
                 </li>
@@ -117,6 +117,7 @@
             </alienPartGenerator>
 			<chemicalSettings>	
 		    </chemicalSettings>
+            <humanRecipeImport>true</humanRecipeImport>
         </generalSettings>
         <hairSettings>
             <hasHair>true</hasHair>
@@ -125,62 +126,6 @@
                  <li>Lekku</li>
             </hairTags>
         </hairSettings>
-        <pawnKindSettings>
-            <alienslavekinds>
-                <li>
-                    <kindDefs>
-                        <li>TwilekSlave</li>
-                    </kindDefs>
-                    <chance>40.0</chance>
-                </li>
-            </alienslavekinds>
-            <alienrefugeekinds>
-                <li>
-                    <kindDefs>
-                        <li>TwilekOperativeElite</li>
-                    </kindDefs>
-                    <chance>50.0</chance>
-                </li>
-            </alienrefugeekinds>
-			<startingColonists>
-				<li>
-				<pawnKindEntries>
-					<li>
-                    <kindDefs>
-                        <li>TwilekMerc</li>
-						<li>TwilekOperative</li>
-						<li>TwilekOperativeElite</li>
-						<li>TwilekColonist</li>
-                    </kindDefs>
-                    <chance>10.0</chance>
-					</li>
-				</pawnKindEntries>
-					<factionDefs>
-						<li>TwilekPlayerColony</li> 
-					</factionDefs>
-				</li>
-			</startingColonists>
-            <alienwandererkinds>
-                <li>
-                    <pawnKindEntries>
-                        <li>
-                            <kindDefs>
-                                <li>TwilekMerc</li>
-								<li>TwilekOperative</li>
-								<li>TwilekColonist</li>
-								<li>TwilekOperativeElite</li>
-								<li>TwilekPackLeader</li>
-								<li>TwilekRecruit</li>
-                            </kindDefs>
-                            <chance>50.0</chance>
-                        </li>
-                    </pawnKindEntries>
-                    <factionDefs>
-                        <li>TwilekPlayerColony</li> 
-                    </factionDefs>
-                </li>
-            </alienwandererkinds>
-        </pawnKindSettings>
         <relationSettings>
             <relationChanceModifierChild>1.1</relationChanceModifierChild>
             <relationChanceModifierExLover>1</relationChanceModifierExLover>
@@ -245,7 +190,7 @@
         <power>5</power>
         <cooldownTime>1.8</cooldownTime>
         <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
-        <commonality>0.2</commonality>
+        <chanceFactor>0.2</chanceFactor>
       </li>
     </tools>
     <race>
@@ -254,10 +199,7 @@
       <intelligence>Humanlike</intelligence>
       <makesFootprints>true</makesFootprints>
       <lifeExpectancy>300</lifeExpectancy>
-      <leatherColor>(38, 29, 28)</leatherColor>
-      <leatherCommonalityFactor>0.001</leatherCommonalityFactor>
-      <leatherInsulation>0.70</leatherInsulation>
-      <leatherMarketValueFactor>3</leatherMarketValueFactor>
+      <leatherDef>Leather_twilek</leatherDef>
       <nameGenerator>NamerPersonTwilekM</nameGenerator>
       <nameGeneratorFemale>NamerPersonTwilekF</nameGeneratorFemale>
       <body>Twilek_body</body>
@@ -327,13 +269,21 @@
       </hediffGiverSets>
     </race>
     <recipes>
+       <li>InstallArchotechEye</li>
+      <li>InstallArchotechArm</li>
+      <li>InstallArchotechLeg</li>
       <li>InstallPowerClaw</li>
-      <li>InstallScytherBlade</li>
       <li>InstallBionicEye</li>
       <li>InstallBionicArm</li>
       <li>InstallBionicLeg</li>
+      <li>InstallBionicSpine</li>
+      <li>InstallBionicHeart</li>
+      <li>InstallBionicStomach</li>
+      <li>InstallBionicEar</li>
       <li>InstallSimpleProstheticArm</li>
       <li>InstallSimpleProstheticLeg</li>
+      <li>InstallSimpleProstheticHeart</li>
+      <li>InstallCochlearImplant</li>
       <li>InstallPegLeg</li>
       <li>InstallDenture</li>
       <li>InstallJoywire</li>
@@ -345,6 +295,7 @@
       <li>ExciseCarcinoma</li>
       <li>RemoveBodyPart</li>
       <li>Euthanize</li>
+      <li>Anesthetize</li>
     </recipes>
 </AlienRace.ThingDef_AlienRace>
 
