@@ -7,6 +7,7 @@
     <description>A colony of the mysterious Twilek race.</description>
     <pawnsPlural>Twilek</pawnsPlural>
     <requiredCountAtGameStart>1</requiredCountAtGameStart>
+    <settlementGenerationWeight>1</settlementGenerationWeight>
     <canMakeRandomly>true</canMakeRandomly>
     <canSiege>true</canSiege>
     <canStageAttacks>true</canStageAttacks>
@@ -63,6 +64,16 @@
           <TwilekMerc>130</TwilekMerc>
           <TwilekOperative>130</TwilekOperative>
           <TwilekOperativeElite>170</TwilekOperativeElite>
+        </options>
+      </li>
+        <li>
+        <kindDef>Peaceful</kindDef>
+        <options>
+          <TwilekColonist>50</TwilekColonist>
+          <TwilekAcrobat>90</TwilekAcrobat>
+          <TwilekGrandVizier>250</TwilekGrandVizier>
+          <TwilekRecruit>100</TwilekRecruit>
+          <TwilekMerc>130</TwilekMerc>
         </options>
       </li>
 	  <li>

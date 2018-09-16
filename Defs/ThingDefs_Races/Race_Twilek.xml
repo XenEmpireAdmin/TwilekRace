@@ -1,5 +1,68 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
+
+
+<AlienRace.RaceSettings>
+    <defName>Twilek_Settings</defName>
+    <pawnKindSettings>
+            <alienslavekinds>
+                <li>
+                    <kindDefs>
+                        <li>TwilekSlave</li>
+                    </kindDefs>
+                    <chance>40.0</chance>
+                </li>
+            </alienslavekinds>
+            <alienrefugeekinds>
+                <li>
+                    <kindDefs>
+                        <li>TwilekOperativeElite</li>
+                    </kindDefs>
+                    <chance>50.0</chance>
+                </li>
+            </alienrefugeekinds>
+			<startingColonists>
+				<li>
+				<pawnKindEntries>
+					<li>
+                    <kindDefs>
+                        <li>TwilekMerc</li>
+						<li>TwilekOperative</li>
+						<li>TwilekOperativeElite</li>
+						<li>TwilekColonist</li>
+                    </kindDefs>
+                    <chance>10.0</chance>
+					</li>
+				</pawnKindEntries>
+					<factionDefs>
+						<li>TwilekPlayerColony</li> 
+					</factionDefs>
+				</li>
+			</startingColonists>
+            <alienwandererkinds>
+                <li>
+                    <pawnKindEntries>
+                        <li>
+                            <kindDefs>
+                                <li>TwilekMerc</li>
+								<li>TwilekOperative</li>
+								<li>TwilekColonist</li>
+								<li>TwilekOperativeElite</li>
+								<li>TwilekPackLeader</li>
+								<li>TwilekRecruit</li>
+                            </kindDefs>
+                            <chance>50.0</chance>
+                        </li>
+                    </pawnKindEntries>
+                    <factionDefs>
+                        <li>TwilekPlayerColony</li> 
+                    </factionDefs>
+                </li>
+            </alienwandererkinds>
+        </pawnKindSettings>
+  </AlienRace.RaceSettings>
+
+
 <ThingDef Name="BaseTwiPawn" Abstract="True">
     <thingClass>Pawn</thingClass>
     <category>Pawn</category>

@@ -511,7 +511,7 @@
     <defName>TwilekSpacerAdult</defName>
     <title>Space trader</title>
     <titleShort>Spacer</titleShort>
-    <baseDescription>[PAWN_nameDef] was a free-trader, roving the Rim searching for deals and opportunities for profit. Until now, HE was flying a ship, making deals with colonies like these... I wonder what happened?</baseDescription>
+    <baseDescription>[PAWN_nameDef] was a free-trader, roving the Rim searching for deals and opportunities for profit. Until now, [PAWN_pronoun] was flying a ship, making deals with colonies like these... I wonder what happened?</baseDescription>
     <slot>Adulthood</slot>
     <bodyTypeMale>Male</bodyTypeMale>
     <bodyTypeFemale>Female</bodyTypeFemale>
