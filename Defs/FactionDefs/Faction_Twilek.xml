@@ -23,7 +23,10 @@
 			<li>TwilekBackstory</li>
   	</backstoryCategories>
 			<hairTags>
-			<li>Lekku</li>
+			<li>Urban</li>
+      <li>Rural</li>
+      <li>Tribal</li>
+      <li>Punk</li>
 			</hairTags>
     <naturalColonyGoodwill>
       <min>-60</min>

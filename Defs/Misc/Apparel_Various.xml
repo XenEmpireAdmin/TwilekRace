@@ -66,7 +66,10 @@
 			<MaxHitPoints>100</MaxHitPoints>
 			<WorkToMake>3200</WorkToMake>
 			<Mass>0.4</Mass>
-			<Insulation_Cold>-10</Insulation_Cold>
+			<StuffEffectMultiplierArmor>0.27</StuffEffectMultiplierArmor>
+      <StuffEffectMultiplierInsulation_Cold>0.55</StuffEffectMultiplierInsulation_Cold>
+      <StuffEffectMultiplierInsulation_Heat>0.55</StuffEffectMultiplierInsulation_Heat>
+      <EquipDelay>1.5</EquipDelay>
 		</statBases>
 		<thingCategories>
 			<li>Apparel</li>
